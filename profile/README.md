@@ -1,120 +1,59 @@
-# 🐺 Wolflow Tools
+# Wolflow — Know before you build.
 
-**AI Development Toolkit for Developers Who Build Fast**
+**An AI enablement practice, operationalized as working software.** One doctrine, seven gates, four lanes, and a ninety-day plan to install it.
 
-[![Website](https://img.shields.io/badge/Website-wolflow.ai-FF6B47?style=for-the-badge)](https://wolflow.ai)
-[![Cloud Platform](https://img.shields.io/badge/Cloud-wolfstitch.dev-4ECDC4?style=for-the-badge)](https://wolfstitch.dev)
+Most organizations don't have an AI adoption problem. They have a decision-making problem — no framework for whether AI is the right answer, where to start, or what their existing tools already do. Wolflow is the machine for making those decisions well: evaluate before you build, govern the portfolio, contain the agents.
 
----
+## The suite — live and hosted
 
-## 🎯 **What We Build**
+### Decide — should this be built at all?
 
-Professional-grade AI development tools designed for speed, simplicity, and developer workflow. From dataset preparation to model training to code testing—we handle the infrastructure so you can focus on building.
+| Tool | What it answers | Where |
+|------|-----------------|-------|
+| **Wolflow** | Seven sequential gates, exit on first failure. The moment a better answer exists — a rule, a process change, a simpler tool — it stops and tells you what it is. | [app.wolflow.ai](https://app.wolflow.ai) |
+| **Wolfpath** | Paste any description of work; get it decomposed into functions, scored for automation potential, and mapped to the wedge worth proving first. | [path.wolflow.ai](https://path.wolflow.ai) |
+| **Wolfbridge** | What your existing stack (Copilot, Agentforce, Now Assist, and more) already does today, powered by live search. | [bridge.wolflow.ai](https://bridge.wolflow.ai) |
 
-### **🧠 For AI/ML Engineers**
-- Transform documents into training datasets in seconds
-- Fine-tune models locally with full control
-- Process data without cloud dependencies
+### Govern — does the portfolio hold together?
 
-### **🛠️ For Developers** 
-- Test AI-generated code safely with automatic rollback
-- Iterate quickly without breaking your workflow
-- Build with confidence using battle-tested tools
+| Tool | What it answers | Where |
+|------|-----------------|-------|
+| **Wolfgate** | Governed intake, biased toward no. Every idea earns its lane; every verdict ends in a measured baseline. | [gate.wolflow.ai](https://gate.wolflow.ai) |
+| **Wolfsight** | The portfolio scored as a system — orphans, collisions, coverage gaps, one explainable 0–100 health score. | [sight.wolflow.ai](https://sight.wolflow.ai) |
 
----
+### Operate — do the agents earn their autonomy?
 
-## 🚀 **Our Tools**
+| Tool | What it answers | Where |
+|------|-----------------|-------|
+| **Warden** | Agent containment scaffolded before the agent gets smart: scoped credentials, staging queues, kill switch. | [wolflow.ai/warden](https://wolflow.ai/warden/) |
+| **Levy** | Cost per successful task against the human baseline. Or it doesn't run. | [wolflow.ai/levy](https://wolflow.ai/levy/) |
 
-### **[🧬 Wolfstitch Desktop](https://github.com/wolflow-ai/wolfstitch)**
-*Local AI Dataset Creator*
-- 40+ file formats support
-- Progressive enhancement UI
-- Premium tokenizer integration
-- Offline processing capability
+Most tools free, no account required.
 
-### **[🐺 Wolftrain](https://github.com/wolflow-ai/wolftrain)**
-*Local LoRA Fine-Tuning*
-- GPU-accelerated training
-- Visual learning rate presets
-- Live training metrics
-- Privacy-first design
+## The doctrine, in one line each
 
-### **[🧪 Wolfkit](https://github.com/wolflow-ai/wolfkit)**
-*AI Code Testing Harness*
-- Safe file replacement testing
-- Automatic backup & restore
-- Batch operation support
-- Zero-risk experimentation
+> "Bias toward no — only ~12% of evaluated ideas warrant an AI build. That's what makes every yes credible."
 
----
+> "No baseline, no build. The result is a number, not a feeling."
 
-## 🌟 **Featured: Wolfstitch Cloud**
+> "If you can draw the flowchart, build the flow — not the agent."
 
-**[Try the flagship cloud platform →](https://wolfstitch.dev)**
+> "Autonomy is earned, not configured. Speed comes from containment, not despite it."
 
-Transform documents into AI-ready datasets instantly. Professional-grade processing with zero data retention.
+## Open-source tooling layer — the repos in this org
 
-- **Lightning Fast**: Process files in seconds
-- **40+ Formats**: PDF, DOCX, code files, and more
-- **Zero Storage**: Your data stays private
-- **Ready-to-Use**: Download JSONL for immediate training
+The hosted suite decides and governs; these open-source tools do the hands-on work underneath it.
+
+| Repo | What it does |
+|------|--------------|
+| **Wolfstitch** | Turn files into clean, fine-tuning-ready datasets — 40+ formats, processed locally. |
+| **Wolftrain** | Local LoRA fine-tuning with GPU acceleration and live training metrics. |
+| **Wolfkit** | AI-code testing harness — safe file replacement with automatic backup and restore. |
+| **Wolftale** | A persistent, portable, personal memory layer. |
+| **Autowolf** | Automation patterns for n8n, Copilot Studio, and Power Automate. |
 
 ---
 
-## 🏗️ **Philosophy**
+Built by [Chris Messina](https://www.linkedin.com/in/christopher-l-messina/) · [wolflow.ai](https://wolflow.ai)
 
-### **Developer-First Design**
-- Start simple, scale when needed
-- Real workflows over enterprise complexity
-- Local processing with cloud convenience
-
-### **Privacy by Design**
-- Your data stays yours
-- Local tools work offline
-- Cloud tools process and discard immediately
-
-### **Open Source Foundation**
-- Core tools available for local use
-- Cloud platform handles the infrastructure
-- Community-driven improvements
-
----
-
-## 🎨 **Built With**
-
-- **Frontend**: Next.js, TypeScript, Tailwind CSS
-- **Backend**: FastAPI, Python, Railway
-- **Desktop**: Python, tkinter, modern UI frameworks
-- **AI/ML**: Transformers, PyTorch, tiktoken
-
----
-
-## 🤝 **Community**
-
-### **Get Started**
-- 🚀 **Try Wolfstitch Cloud**: [wolfstitch.dev](https://wolfstitch.dev)
-- 📖 **Read the docs**: Check individual repo READMEs
-- 💬 **Join discussions**: Open issues and discussions welcome
-
-### **Contributing**
-- 🐛 **Report bugs**: Use GitHub issues
-- 💡 **Request features**: Start a discussion
-- 🔧 **Submit PRs**: Contributions welcome
-
-### **Stay Updated**
-- 🌐 **Website**: [wolflow.ai](https://wolflow.ai)
-- 💼 **LinkedIn**: [@CLewisMessina](https://linkedin.com/in/clewismessina)
-- 📧 **Contact**: hello@wolflow.ai
-
----
-
-## 📊 **Stats**
-
-![GitHub stars](https://img.shields.io/github/stars/wolflow-ai?style=social)
-![GitHub followers](https://img.shields.io/github/followers/wolflow-ai?style=social)
-
----
-
-**Building the future of AI development, one tool at a time.**
-
-*Made with ❤️ for developers who value speed, privacy, and great user experience.*
+*Empirica ante verba — evidence before words.*
